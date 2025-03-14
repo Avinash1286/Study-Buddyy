@@ -19,11 +19,11 @@ void clearScreen() {
 
 void printAuthMenu() {
     setColor(14); // Yellow
-    printf("\n    ╔════════════ Authentication ═════════════╗\n");
+        printf("\n    ╔════════════ Authentication ═════════════╗\n");
         printf("    ║                                         ║\n");
-        printf("    ║  1. Login                              ║\n");
-        printf("    ║  2. Register                           ║\n");
-        printf("    ║  3. Exit                               ║\n");
+        printf("    ║  1. Login                               ║\n");
+        printf("    ║  2. Register                            ║\n");
+        printf("    ║  3. Exit                                ║\n");
         printf("    ║                                         ║\n");
         printf("    ╚═════════════════════════════════════════╝\n");
     setColor(7); // White
@@ -37,13 +37,13 @@ void printMenu(char *username) {
     printf("\n    ╔════════════════ MAIN MENU ═══════════════╗\n");
     printf("    ║                                          ║\n");
     printf("    ║  1. Generate Learning Content            ║\n");
-    printf("    ║  2. Summarize YouTube Video             ║\n");
-    printf("    ║  3. Create Mind Maps               ║\n");
-    printf("    ║  4. Exit                                ║\n");
+    printf("    ║  2. Summarize YouTube Video              ║\n");
+    printf("    ║  3. Create Mind Maps                     ║\n");
+    printf("    ║  4. Exit                                 ║\n");
     printf("    ║                                          ║\n");
     printf("    ╚══════════════════════════════════════════╝\n");
     setColor(7); // White
-    printf("\n    Choose an option (1-4): ");
+    //printf("\n    Choose an option (1-4): ");
 }
 
 

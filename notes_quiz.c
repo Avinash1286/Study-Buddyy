@@ -14,9 +14,9 @@ void generate_content() {
     
     setColor(14); // Yellow
     printf("\n    ╔═════════════ Generate Content ════════════╗\n");
-    printf("    ║                                          ║\n");
-    printf("    ║  Enter a topic to learn about:          ║\n");
-    printf("    ╚══════════════════════════════════════════╝\n");
+    printf("    ║                                           ║\n");
+    printf("    ║  Enter a topic to learn about:            ║\n");
+    printf("    ╚═══════════════════════════════════════════╝\n");
     setColor(7); // White
     
     printf("\n    Topic: ");
@@ -27,11 +27,11 @@ void generate_content() {
     
     setColor(14); // Yellow
     printf("\n    ╔════════════ Select Content Type ══════════╗\n");
-    printf("    ║                                          ║\n");
-    printf("    ║  1. Study Notes                         ║\n");
-    printf("    ║  2. Quiz                                ║\n");
-    printf("    ║                                          ║\n");
-    printf("    ╚══════════════════════════════════════════╝\n");
+    printf("    ║                                           ║\n");
+    printf("    ║  1. Study Notes                           ║\n");
+    printf("    ║  2. Quiz                                  ║\n");
+    printf("    ║                                           ║\n");
+    printf("    ╚═══════════════════════════════════════════╝\n");
     setColor(7); // White
     
     printf("\n    Choice (1-2): ");
